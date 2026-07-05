@@ -7,10 +7,21 @@ const ASPECT_CLASS = {
 };
 
 /**
- * Renders `src` as a lazy image; falls back to a labeled sage-gradient
- * placeholder if the image is missing (real photography not yet supplied).
+ * Renders `src` as an image; falls back to a labeled sage-gradient placeholder
+ * if the image is missing (real photography not yet supplied). Pass
+ * `priority` for above-the-fold images (e.g. the hero) so they load eagerly
+ * at high priority instead of lazily — lazy-loading the page's LCP image
+ * only delays it.
  */
-export default function ImagePlaceholder({ src, alt, label, aspect = "4:3", className = "", rounded = "rounded-lg" }) {
+export default function ImagePlaceholder({
+  src,
+  alt,
+  label,
+  aspect = "4:3",
+  className = "",
+  rounded = "rounded-lg",
+  priority = false,
+}) {
   const [errored, setErrored] = useState(false);
   const aspectClass = ASPECT_CLASS[aspect] ?? ASPECT_CLASS["4:3"];
 
@@ -33,7 +44,12 @@ export default function ImagePlaceholder({ src, alt, label, aspect = "4:3", clas
       <img
         src={src}
         alt={alt}
-        loading="lazy"
+        loading={priority ? "eager" : "lazy"}
+        // React 18.3's DOM renderer doesn't recognize the camelCase `fetchPriority`
+        // prop yet (warns and drops it) — the lowercase HTML attribute is what
+        // actually reaches the browser correctly.
+        // eslint-disable-next-line react/no-unknown-property
+        fetchpriority={priority ? "high" : "auto"}
         decoding="async"
         onError={() => setErrored(true)}
         className="h-full w-full object-cover"
