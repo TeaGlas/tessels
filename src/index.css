@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f4f9f4;
+  color: #22332f;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Focus rings on every interactive element, per §8 */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid #5c8d89;
+  outline-offset: 2px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 28px;
+}
+
+/* Route enter animation */
+.page-enter {
+  animation: page-enter 0.35s ease both;
+}
+
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Carousel slide (hero + what's-new rail): the outgoing and incoming content
+   sit side by side as two full-width panes in one double-wide track, and the
+   track itself translates by half its width. That means the old pane stays
+   completely intact and visible while it physically slides out, and the new
+   pane slides fully into view from the opposite edge — a real glide, not a
+   cut followed by a separate slide-in, and no opacity trickery. */
+.slide-viewport {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.slide-track {
+  display: flex;
+  align-items: center;
+  width: 200%;
+}
+.slide-pane {
+  width: 50%;
+  flex-shrink: 0;
+  min-width: 0;
+}
+/* A little breathing room between the outgoing and incoming pane while they're
+   side by side mid-slide. Applied as inner padding rather than a track gap, so
+   it doesn't disturb the 50%/200% math the translateX keyframes rely on. */
+.slide-pane:first-child {
+  padding-right: 16px;
+}
+.slide-pane:last-child {
+  padding-left: 16px;
+}
+
+.slide-track-next {
+  animation: slide-track-next 1.1s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+.slide-track-prev {
+  animation: slide-track-prev 1.1s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+
+@keyframes slide-track-next {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes slide-track-prev {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Responsive reordering for the recipe detail body: ingredients, then
+   instructions, then other-recipes on narrow screens; ingredients+instructions
+   in a left column beside other-recipes on wide screens. */
+.recipe-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.recipe-body > .ingredients-col {
+  order: 1;
+}
+.recipe-body > .instructions-col {
+  order: 2;
+}
+.recipe-body > .other-col {
+  order: 3;
+}
+
+@media (min-width: 1024px) {
+  .recipe-body {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    grid-template-areas:
+      "ingredients other"
+      "instructions instructions";
+    align-items: start;
+  }
+  .recipe-body > .ingredients-col {
+    grid-area: ingredients;
+    order: initial;
+  }
+  .recipe-body > .instructions-col {
+    grid-area: instructions;
+    order: initial;
+  }
+  .recipe-body > .other-col {
+    grid-area: other;
+    order: initial;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .page-enter,
+  .slide-track-next,
+  .slide-track-prev {
+    animation: none;
+  }
+}

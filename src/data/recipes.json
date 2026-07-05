@@ -1,0 +1,1422 @@
+[
+  {
+    "id": "bao",
+    "slug": "korean-fried-chicken-bao",
+    "title": {
+      "en": "Korean fried chicken bao",
+      "nl": "Koreaanse gefrituurde kipbao"
+    },
+    "blurb": {
+      "en": "Crispy, crunchy, and with a little bit of a kick.",
+      "nl": "Krokant, knapperig, en met een beetje pit."
+    },
+    "category": "dinner",
+    "prep": { "en": "3.5 hrs", "nl": "3,5 uur" },
+    "cook": { "en": "30 mins", "nl": "30 min" },
+    "totalTime": { "en": "4 hrs", "nl": "4 uur" },
+    "baseServings": 4,
+    "servingNoun": { "en": "serves", "nl": "porties" },
+    "image": "/images/crispy-chicken-bao.jpg",
+    "featured": true,
+    "nutrition": [
+      { "value": "520", "label": { "en": "kcal", "nl": "kcal" } },
+      { "value": "28 g", "label": { "en": "protein", "nl": "eiwit" } },
+      { "value": "54 g", "label": { "en": "carbs", "nl": "koolhydraten" } },
+      { "value": "19 g", "label": { "en": "fat", "nl": "vet" } }
+    ],
+    "ingredientGroups": [
+      {
+        "name": { "en": "Bao buns", "nl": "Bao broodjes" },
+        "items": [
+          {
+            "name": {
+              "en": "plain (all-purpose) flour",
+              "nl": "bloem (patentbloem)"
+            },
+            "us": { "v": 3.75, "u": "cups" },
+            "metric": { "v": 469, "u": "g" }
+          },
+          {
+            "name": {
+              "en": "instant dried yeast",
+              "nl": "instant gedroogde gist"
+            },
+            "us": { "v": 2, "u": "tsp" },
+            "metric": { "v": 7, "u": "g" }
+          },
+          {
+            "name": { "en": "caster sugar", "nl": "fijne kristalsuiker" },
+            "us": { "v": 0.25, "u": "cup" },
+            "metric": { "v": 50, "u": "g" }
+          },
+          {
+            "name": { "en": "baking powder", "nl": "bakpoeder" },
+            "us": { "v": 1, "u": "tsp" },
+            "metric": { "v": 4, "u": "g" }
+          },
+          {
+            "name": { "en": "whole milk, warm", "nl": "volle melk, warm" },
+            "us": { "v": 1, "u": "cup" },
+            "metric": { "v": 240, "u": "ml" }
+          },
+          {
+            "name": { "en": "vegetable oil", "nl": "plantaardige olie" },
+            "us": { "v": 2, "u": "tbsp" },
+            "metric": { "v": 28, "u": "ml" }
+          }
+        ]
+      },
+      {
+        "name": { "en": "Crispy chicken", "nl": "Krokante kip" },
+        "items": [
+          {
+            "name": {
+              "en": "chicken thighs, boneless, cut into bite-size chunks",
+              "nl": "kippendijfilet, in hapklare stukken gesneden"
+            },
+            "us": { "v": 4, "u": "" },
+            "metric": { "v": 4, "u": "" }
+          },
+          {
+            "name": { "en": "buttermilk", "nl": "karnemelk" },
+            "us": { "v": 1, "u": "cup" },
+            "metric": { "v": 240, "u": "ml" }
+          },
+          {
+            "name": { "en": "cornflour (cornstarch)", "nl": "maizena" },
+            "us": { "v": 1, "u": "cup" },
+            "metric": { "v": 128, "u": "g" }
+          },
+          {
+            "name": { "en": "plain flour", "nl": "bloem" },
+            "us": { "v": 0.5, "u": "cup" },
+            "metric": { "v": 63, "u": "g" }
+          },
+          {
+            "name": {
+              "en": "vegetable oil, for frying",
+              "nl": "plantaardige olie, om te frituren"
+            },
+            "us": { "v": 3, "u": "cups" },
+            "metric": { "v": 720, "u": "ml" }
+          }
+        ]
+      },
+      {
+        "name": { "en": "Gochujang glaze", "nl": "Gochujangglazuur" },
+        "items": [
+          {
+            "name": { "en": "gochujang paste", "nl": "gochujangpasta" },
+            "us": { "v": 3, "u": "tbsp" },
+            "metric": { "v": 54, "u": "g" }
+          },
+          {
+            "name": { "en": "honey", "nl": "honing" },
+            "us": { "v": 2, "u": "tbsp" },
+            "metric": { "v": 42, "u": "g" }
+          },
+          {
+            "name": { "en": "soy sauce", "nl": "sojasaus" },
+            "us": { "v": 1, "u": "tbsp" },
+            "metric": { "v": 15, "u": "ml" }
+          },
+          {
+            "name": { "en": "rice vinegar", "nl": "rijstazijn" },
+            "us": { "v": 1, "u": "tbsp" },
+            "metric": { "v": 15, "u": "ml" }
+          },
+          {
+            "name": { "en": "garlic, grated", "nl": "knoflook, geraspt" },
+            "us": { "v": 2, "u": "cloves" },
+            "metric": { "v": 2, "u": "cloves" }
+          }
+        ]
+      },
+      {
+        "name": { "en": "To serve", "nl": "Om te serveren" },
+        "items": [
+          {
+            "name": {
+              "en": "quick-pickled cucumber",
+              "nl": "snel ingemaakte komkommer"
+            },
+            "us": { "v": 1, "u": "cup" },
+            "metric": { "v": 150, "u": "g" }
+          },
+          {
+            "name": {
+              "en": "spring onions, sliced",
+              "nl": "lente-uitjes, gesneden"
+            },
+            "us": { "v": 3, "u": "" },
+            "metric": { "v": 3, "u": "" }
+          },
+          {
+            "name": {
+              "en": "carrot, julienned",
+              "nl": "wortel, julienne gesneden"
+            },
+            "us": { "v": 0.25, "u": "cup" },
+            "metric": { "v": 10, "u": "g" }
+          },
+          {
+            "name": {
+              "en": "toasted sesame seeds",
+              "nl": "geroosterde sesamzaadjes"
+            },
+            "us": { "v": 1, "u": "tbsp" },
+            "metric": { "v": 9, "u": "g" }
+          },
+          {
+            "name": { "en": "kewpie mayo", "nl": "kewpie-mayonaise" },
+            "us": { "v": 0.25, "u": "cup" },
+            "metric": { "v": 60, "u": "ml" }
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "group": { "en": "Bao dough", "nl": "Bao deeg" },
+        "steps": [
+          {
+            "en": "Combine flour, sugar, yeast, and baking powder in a large bowl.",
+            "nl": "Meng bloem, suiker, gist en bakpoeder in een grote kom."
+          },
+          {
+            "en": "Add warm milk and oil, mix to a shaggy dough, then knead 8 mins until smooth and elastic.",
+            "nl": "Voeg warme melk en olie toe, meng tot een ruw deeg en kneed 8 minuten tot het glad en elastisch is."
+          },
+          {
+            "en": "Cover and prove 1 hr, until doubled.",
+            "nl": "Dek af en laat 1 uur rijzen tot het deeg verdubbeld is."
+          },
+          {
+            "en": "Divide into 8, shape into ovals, and place on parchment squares. Prove a further 20 mins.",
+            "nl": "Verdeel in 8 stukken, vorm ovalen en leg op vierkantjes bakpapier. Laat nog 20 minuten rijzen."
+          },
+          {
+            "en": "Steam buns in batches, 10 mins each, over gently simmering water. Keep covered until ready to fill.",
+            "nl": "Stoom de broodjes in porties, 10 minuten per keer, boven zachtjes sudderend water. Houd afgedekt tot je ze gaat vullen."
+          }
+        ]
+      },
+      {
+        "group": { "en": "Crispy chicken", "nl": "Krokante kip" },
+        "steps": [
+          {
+            "en": "Marinate the chicken in buttermilk for at least 1 hr, or overnight in the fridge.",
+            "nl": "Marineer de kip minstens 1 uur in karnemelk, of een nacht in de koelkast."
+          },
+          {
+            "en": "Mix cornflour and plain flour. Dredge chicken pieces, pressing the coating on firmly.",
+            "nl": "Meng maizena en bloem. Haal de kipstukken erdoor en druk de coating goed aan."
+          },
+          {
+            "en": "Heat oil to 175°C (350°F). Fry chicken in batches 5–6 mins until deep golden and cooked through.",
+            "nl": "Verhit olie tot 175°C. Frituur de kip in porties 5-6 minuten tot diepgoud en gaar."
+          },
+          {
+            "en": "Drain on a rack while you make the glaze.",
+            "nl": "Laat uitlekken op een rooster terwijl je het glazuur maakt."
+          }
+        ]
+      },
+      {
+        "group": { "en": "Glaze & assemble", "nl": "Glazuur & opbouwen" },
+        "steps": [
+          {
+            "en": "Whisk gochujang, honey, soy sauce, vinegar, and garlic in a small pan. Simmer 2 mins until glossy.",
+            "nl": "Klop gochujang, honing, sojasaus, azijn en knoflook door elkaar in een kleine pan. Laat 2 minuten sudderen tot glanzend."
+          },
+          {
+            "en": "Toss the hot fried chicken through the glaze to coat.",
+            "nl": "Schep de hete gefrituurde kip door het glazuur tot alles bedekt is."
+          },
+          {
+            "en": "Split each bao bun, spread with kewpie mayo, and fill with glazed chicken, pickled cucumber, spring onion, and sesame seeds.",
+            "nl": "Snijd elk bao-broodje open, besmeer met kewpie-mayonaise en vul met geglazuurde kip, ingemaakte komkommer, lente-ui en sesamzaadjes."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shakshuka",
+    "slug": "green-shakshuka",
+    "title": { "en": "Green shakshuka", "nl": "Groene shakshuka" },
+    "blurb": {
+      "en": "Poached eggs in a herby, garlicky green pepper sauce.",
+      "nl": "Gepocheerde eieren in een kruidige saus van groene paprika en knoflook."
+    },
+    "category": "breakfast",
+    "prep": { "en": "10 mins", "nl": "10 min" },
+    "cook": { "en": "25 mins", "nl": "25 min" },
+    "totalTime": { "en": "35 mins", "nl": "35 min" },
+    "baseServings": 4,
+    "servingNoun": { "en": "serves", "nl": "porties" },
+    "image": "/images/green-shakshuka.jpg",
+    "featured": true,
+    "nutrition": [
+      { "value": "310", "label": { "en": "kcal", "nl": "kcal" } },
+      { "value": "16 g", "label": { "en": "protein", "nl": "eiwit" } },
+      { "value": "14 g", "label": { "en": "carbs", "nl": "koolhydraten" } },
+      { "value": "22 g", "label": { "en": "fat", "nl": "vet" } }
+    ],
+    "ingredientGroups": [
+      {
+        "name": { "en": "Green sauce", "nl": "Groene saus" },
+        "items": [
+          {
+            "name": { "en": "olive oil", "nl": "olijfolie" },
+            "us": { "v": 3, "u": "tbsp" },
+            "metric": { "v": 45, "u": "ml" }
+          },
+          {
+            "name": {
+              "en": "green bell peppers, chopped",
+              "nl": "groene paprika's, gesneden"
+            },
+            "us": { "v": 2, "u": "" },
+            "metric": { "v": 2, "u": "" }
+          },
+          {
+            "name": {
+              "en": "jalapeño, seeded and chopped",
+              "nl": "jalapeño, zonder zaadjes en gesneden"
+            },
+            "us": { "v": 1, "u": "" },
+            "metric": { "v": 1, "u": "" }
+          },
+          {
+            "name": { "en": "onion, chopped", "nl": "ui, gesneden" },
+            "us": { "v": 1, "u": "" },
+            "metric": { "v": 1, "u": "" }
+          },
+          {
+            "name": {
+              "en": "garlic cloves, sliced",
+              "nl": "teentjes knoflook, in plakjes"
+            },
+            "us": { "v": 4, "u": "" },
+            "metric": { "v": 4, "u": "" }
+          },
+          {
+            "name": {
+              "en": "coriander, roughly chopped",
+              "nl": "koriander, grof gehakt"
+            },
+            "us": { "v": 1, "u": "cup" },
+            "metric": { "v": 30, "u": "g" }
+          },
+          {
+            "name": { "en": "spinach", "nl": "spinazie" },
+            "us": { "v": 2, "u": "cups" },
+            "metric": { "v": 60, "u": "g" }
+          },
+          {
+            "name": { "en": "ground cumin", "nl": "gemalen komijn" },
+            "us": { "v": 1, "u": "tsp" },
+            "metric": { "v": 2, "u": "g" }
+          }
+        ]
+      },
+      {
+        "name": { "en": "To finish", "nl": "Afwerking" },
+        "items": [
+          {
+            "name": { "en": "eggs", "nl": "eieren" },
+            "us": { "v": 6, "u": "" },
+            "metric": { "v": 6, "u": "" }
+          },
+          {
+            "name": { "en": "feta, crumbled", "nl": "feta, verkruimeld" },
+            "us": { "v": 0.5, "u": "cup" },
+            "metric": { "v": 75, "u": "g" }
+          },
+          {
+            "name": {
+              "en": "crusty bread, to serve",
+              "nl": "knapperig brood, om te serveren"
+            },
+            "us": { "v": 1, "u": "loaf" },
+            "metric": { "v": 1, "u": "loaf" }
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "group": { "en": "Sauce", "nl": "Saus" },
+        "steps": [
+          {
+            "en": "Heat olive oil in a wide pan. Cook peppers, jalapeño, and onion 10 mins until soft.",
+            "nl": "Verhit olijfolie in een brede pan. Bak paprika, jalapeño en ui 10 minuten tot zacht."
+          },
+          {
+            "en": "Add garlic and cumin, cook 1 min until fragrant.",
+            "nl": "Voeg knoflook en komijn toe en bak 1 minuut tot het geurt."
+          },
+          {
+            "en": "Blitz with coriander and spinach until mostly smooth, then return to the pan and simmer 5 mins.",
+            "nl": "Mix met koriander en spinazie tot een grotendeels gladde massa, doe terug in de pan en laat 5 minuten sudderen."
+          }
+        ]
+      },
+      {
+        "group": { "en": "Eggs", "nl": "Eieren" },
+        "steps": [
+          {
+            "en": "Make 6 wells in the sauce and crack in the eggs.",
+            "nl": "Maak 6 kuiltjes in de saus en breek er de eieren in."
+          },
+          {
+            "en": "Cover and cook 6–8 mins until whites are set and yolks still soft.",
+            "nl": "Dek af en gaar 6-8 minuten tot het eiwit gestold is en de dooier nog zacht."
+          },
+          {
+            "en": "Scatter with feta and serve straight from the pan with crusty bread.",
+            "nl": "Bestrooi met feta en serveer direct uit de pan met knapperig brood."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sesame-noodles",
+    "slug": "sesame-noodles",
+    "title": { "en": "Sesame noodles", "nl": "Sesamnoedels" },
+    "blurb": {
+      "en": "Chewy noodles, crackly veg, a nutty chilli oil dressing.",
+      "nl": "Noedels, krokante groente, een pittige sesamdressing met chiliolie."
+    },
+    "category": "lunch",
+    "prep": { "en": "15 mins", "nl": "15 min" },
+    "cook": { "en": "15 mins", "nl": "15 min" },
+    "totalTime": { "en": "30 mins", "nl": "30 min" },
+    "baseServings": 2,
+    "servingNoun": { "en": "serves", "nl": "porties" },
+    "image": "/images/sesame-noodles.jpg",
+    "featured": true,
+    "nutrition": [
+      { "value": "480", "label": { "en": "kcal", "nl": "kcal" } },
+      { "value": "14 g", "label": { "en": "protein", "nl": "eiwit" } },
+      { "value": "62 g", "label": { "en": "carbs", "nl": "koolhydraten" } },
+      { "value": "18 g", "label": { "en": "fat", "nl": "vet" } }
+    ],
+    "ingredientGroups": [
+      {
+        "name": { "en": "Noodles", "nl": "Noedels" },
+        "items": [
+          {
+            "name": { "en": "udon noodles", "nl": "udonnoedels" },
+            "us": { "v": 8, "u": "oz" },
+            "metric": { "v": 225, "u": "g" }
+          },
+          {
+            "name": { "en": "sesame oil", "nl": "sesamolie" },
+            "us": { "v": 1, "u": "tbsp" },
+            "metric": { "v": 15, "u": "ml" }
+          },
+          {
+            "name": {
+              "en": "red cabbage, shredded",
+              "nl": "rode kool, fijngesneden"
+            },
+            "us": { "v": 1, "u": "cup" },
+            "metric": { "v": 90, "u": "g" }
+          },
+          {
+            "name": {
+              "en": "carrot, julienned",
+              "nl": "wortel, julienne gesneden"
+            },
+            "us": { "v": 1, "u": "" },
+            "metric": { "v": 1, "u": "" }
+          }
+        ]
+      },
+      {
+        "name": { "en": "Dressing", "nl": "Dressing" },
+        "items": [
+          {
+            "name": { "en": "soy sauce", "nl": "sojasaus" },
+            "us": { "v": 3, "u": "tbsp" },
+            "metric": { "v": 45, "u": "ml" }
+          },
+          {
+            "name": { "en": "black rice vinegar", "nl": "zwarte rijstazijn" },
+            "us": { "v": 1, "u": "tbsp" },
+            "metric": { "v": 15, "u": "ml" }
+          },
+          {
+            "name": { "en": "chilli crisp oil", "nl": "chili crisp olie" },
+            "us": { "v": 2, "u": "tbsp" },
+            "metric": { "v": 30, "u": "ml" }
+          },
+          {
+            "name": { "en": "brown sugar", "nl": "bruine suiker" },
+            "us": { "v": 1, "u": "tbsp" },
+            "metric": { "v": 12, "u": "g" }
+          },
+          {
+            "name": { "en": "garlic, grated", "nl": "knoflook, geraspt" },
+            "us": { "v": 2, "u": "cloves" },
+            "metric": { "v": 2, "u": "cloves" }
+          },
+          {
+            "name": {
+              "en": "toasted sesame seeds",
+              "nl": "geroosterde sesamzaadjes"
+            },
+            "us": { "v": 1, "u": "tbsp" },
+            "metric": { "v": 9, "u": "g" }
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "group": { "en": "Noodles", "nl": "Noedels" },
+        "steps": [
+          {
+            "en": "Cook noodles per packet instructions, drain, and toss with sesame oil to stop sticking.",
+            "nl": "Kook de noedels volgens de verpakking, giet af en meng met sesamolie zodat ze niet plakken."
+          },
+          {
+            "en": "Heat a dry pan over high heat and crisp the noodles in batches, 2–3 mins per side, until edges catch and crackle.",
+            "nl": "Verhit een droge pan op hoog vuur en bak de noedels in porties krokant, 2-3 minuten per kant, tot de randjes knapperig worden."
+          }
+        ]
+      },
+      {
+        "group": { "en": "Dressing & toss", "nl": "Dressing & mengen" },
+        "steps": [
+          {
+            "en": "Whisk together soy sauce, vinegar, chilli oil, sugar, and garlic.",
+            "nl": "Klop sojasaus, azijn, chiliolie, suiker en knoflook door elkaar."
+          },
+          {
+            "en": "Toss crispy noodles with cabbage, carrot, and dressing. Top with sesame seeds and serve immediately.",
+            "nl": "Meng de krokante noedels met kool, wortel en de dressing. Bestrooi met sesamzaadjes en serveer direct."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sheet-pan-gnocchi",
+    "slug": "sheet-pan-gnocchi-sausage",
+    "title": {
+      "en": "Sheet-pan gnocchi with sausage",
+      "nl": "Ovenschotel met gnocchi en worst"
+    },
+    "blurb": {
+      "en": "One tray, crispy gnocchi, sticky roasted tomatoes.",
+      "nl": "Eén bakplaat, krokante gnocchi, kleverig geroosterde tomaten."
+    },
+    "category": "dinner",
+    "prep": { "en": "10 mins", "nl": "10 min" },
+    "cook": { "en": "35 mins", "nl": "35 min" },
+    "totalTime": { "en": "45 mins", "nl": "45 min" },
+    "baseServings": 4,
+    "servingNoun": { "en": "serves", "nl": "porties" },
+    "image": "/images/sheet-pan-gnocchi.jpg",
+    "featured": false,
+    "nutrition": [
+      { "value": "560", "label": { "en": "kcal", "nl": "kcal" } },
+      { "value": "22 g", "label": { "en": "protein", "nl": "eiwit" } },
+      { "value": "58 g", "label": { "en": "carbs", "nl": "koolhydraten" } },
+      { "value": "26 g", "label": { "en": "fat", "nl": "vet" } }
+    ],
+    "ingredientGroups": [
+      {
+        "name": { "en": "Tray bake", "nl": "Ovenschotel" },
+        "items": [
+          {
+            "name": {
+              "en": "shop-bought potato gnocchi",
+              "nl": "kant-en-klare aardappelgnocchi"
+            },
+            "us": { "v": 1.5, "u": "lb" },
+            "metric": { "v": 680, "u": "g" }
+          },
+          {
+            "name": {
+              "en": "Italian sausages, sliced thick",
+              "nl": "Italiaanse worst, in dikke plakken"
+            },
+            "us": { "v": 6, "u": "" },
+            "metric": { "v": 6, "u": "" }
+          },
+          {
+            "name": { "en": "cherry tomatoes", "nl": "cherrytomaatjes" },
+            "us": { "v": 2, "u": "cups" },
+            "metric": { "v": 300, "u": "g" }
+          },
+          {
+            "name": { "en": "red onion, wedges", "nl": "rode ui, in partjes" },
+            "us": { "v": 1, "u": "" },
+            "metric": { "v": 1, "u": "" }
+          },
+          {
+            "name": { "en": "olive oil", "nl": "olijfolie" },
+            "us": { "v": 3, "u": "tbsp" },
+            "metric": { "v": 45, "u": "ml" }
+          },
+          {
+            "name": { "en": "dried oregano", "nl": "gedroogde oregano" },
+            "us": { "v": 1, "u": "tsp" },
+            "metric": { "v": 1, "u": "g" }
+          }
+        ]
+      },
+      {
+        "name": { "en": "To finish", "nl": "Afwerking" },
+        "items": [
+          {
+            "name": { "en": "parmesan, grated", "nl": "parmezaan, geraspt" },
+            "us": { "v": 0.5, "u": "cup" },
+            "metric": { "v": 50, "u": "g" }
+          },
+          {
+            "name": { "en": "basil leaves", "nl": "basilicumblaadjes" },
+            "us": { "v": 0.5, "u": "cup" },
+            "metric": { "v": 10, "u": "g" }
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "group": { "en": "Roast", "nl": "Roosteren" },
+        "steps": [
+          {
+            "en": "Heat oven to 220°C (425°F). Toss gnocchi, sausage, tomatoes, and onion with oil and oregano on a large tray.",
+            "nl": "Verwarm de oven voor op 220°C. Meng gnocchi, worst, tomaten en ui met olie en oregano op een grote bakplaat."
+          },
+          {
+            "en": "Roast 30–35 mins, tossing halfway, until gnocchi are crisp and tomatoes have burst.",
+            "nl": "Rooster 30-35 minuten, halverwege omscheppen, tot de gnocchi krokant zijn en de tomaten opengebarsten zijn."
+          }
+        ]
+      },
+      {
+        "group": { "en": "Finish", "nl": "Afwerking" },
+        "steps": [
+          {
+            "en": "Scatter with parmesan and basil straight from the oven and serve.",
+            "nl": "Bestrooi direct uit de oven met parmezaan en basilicum en serveer."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "banana-bread",
+    "slug": "miso-caramel-banana-bread",
+    "title": {
+      "en": "Miso caramel banana bread",
+      "nl": "Bananenbrood met miso-karamel"
+    },
+    "blurb": {
+      "en": "Deeply caramelised, salty-sweet, stays moist for days.",
+      "nl": "Diep gekarameliseerd, zoet-zout, blijft dagenlang vochtig."
+    },
+    "category": "baking & desserts",
+    "prep": { "en": "15 mins", "nl": "15 min" },
+    "cook": { "en": "55 mins", "nl": "55 min" },
+    "totalTime": { "en": "1 hr 10 mins", "nl": "1 uur 10 min" },
+    "baseServings": 10,
+    "servingNoun": { "en": "makes", "nl": "maakt" },
+    "image": "/images/miso-caramel-banana-bread.jpg",
+    "featured": false,
+    "nutrition": [
+      { "value": "290", "label": { "en": "kcal", "nl": "kcal" } },
+      { "value": "4 g", "label": { "en": "protein", "nl": "eiwit" } },
+      { "value": "38 g", "label": { "en": "carbs", "nl": "koolhydraten" } },
+      { "value": "14 g", "label": { "en": "fat", "nl": "vet" } }
+    ],
+    "ingredientGroups": [
+      {
+        "name": { "en": "Batter", "nl": "Beslag" },
+        "items": [
+          {
+            "name": {
+              "en": "ripe bananas, mashed",
+              "nl": "rijpe bananen, geprakt"
+            },
+            "us": { "v": 4, "u": "" },
+            "metric": { "v": 4, "u": "" }
+          },
+          {
+            "name": {
+              "en": "unsalted butter, melted",
+              "nl": "ongezouten boter, gesmolten"
+            },
+            "us": { "v": 0.5, "u": "cup" },
+            "metric": { "v": 113, "u": "g" }
+          },
+          {
+            "name": { "en": "white miso paste", "nl": "witte misopasta" },
+            "us": { "v": 2, "u": "tbsp" },
+            "metric": { "v": 36, "u": "g" }
+          },
+          {
+            "name": { "en": "dark brown sugar", "nl": "donkere basterdsuiker" },
+            "us": { "v": 0.75, "u": "cup" },
+            "metric": { "v": 150, "u": "g" }
+          },
+          {
+            "name": { "en": "eggs", "nl": "eieren" },
+            "us": { "v": 2, "u": "" },
+            "metric": { "v": 2, "u": "" }
+          },
+          {
+            "name": { "en": "vanilla extract", "nl": "vanille-extract" },
+            "us": { "v": 1, "u": "tsp" },
+            "metric": { "v": 4, "u": "g" }
+          },
+          {
+            "name": { "en": "plain flour", "nl": "bloem" },
+            "us": { "v": 1.75, "u": "cups" },
+            "metric": { "v": 219, "u": "g" }
+          },
+          {
+            "name": { "en": "baking soda", "nl": "zuiveringszout" },
+            "us": { "v": 1, "u": "tsp" },
+            "metric": { "v": 5, "u": "g" }
+          },
+          {
+            "name": { "en": "flaky sea salt", "nl": "grof zeezout" },
+            "us": { "v": 0.5, "u": "tsp" },
+            "metric": { "v": 3, "u": "g" }
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "group": { "en": "Batter", "nl": "Beslag" },
+        "steps": [
+          {
+            "en": "Heat oven to 175°C (350°F) and line a loaf tin.",
+            "nl": "Verwarm de oven voor op 175°C en bekleed een cakevorm met bakpapier."
+          },
+          {
+            "en": "Whisk melted butter, miso, and sugar until smooth, then whisk in eggs, vanilla, and mashed banana.",
+            "nl": "Klop gesmolten boter, miso en suiker glad, klop er dan eieren, vanille en geprakte banaan doorheen."
+          },
+          {
+            "en": "Fold in flour, baking soda, and half the salt until just combined — do not overmix.",
+            "nl": "Spatel er bloem, zuiveringszout en de helft van het zout doorheen tot net gemengd — meng niet te lang."
+          }
+        ]
+      },
+      {
+        "group": { "en": "Bake", "nl": "Bakken" },
+        "steps": [
+          {
+            "en": "Pour into the tin, scatter with remaining salt, and bake 50–55 mins until a skewer comes out clean.",
+            "nl": "Giet het beslag in de vorm, bestrooi met de rest van het zout en bak 50-55 minuten tot een satéprikker er schoon uitkomt."
+          },
+          {
+            "en": "Cool in the tin 10 mins, then turn out onto a rack to cool fully before slicing.",
+            "nl": "Laat 10 minuten afkoelen in de vorm, stort dan op een rooster om helemaal af te koelen voor het snijden."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "blondies",
+    "slug": "brown-butter-blondies",
+    "title": {
+      "en": "Brown butter blondies",
+      "nl": "Blondies met gebruinde boter"
+    },
+    "blurb": {
+      "en": "Fudgy centre, crackly top, nutty from the browned butter.",
+      "nl": "Smeuïge kern, krokante bovenkant, nootachtig door de gebruinde boter."
+    },
+    "category": "baking & desserts",
+    "prep": { "en": "15 mins", "nl": "15 min" },
+    "cook": { "en": "30 mins", "nl": "30 min" },
+    "totalTime": { "en": "45 mins", "nl": "45 min" },
+    "baseServings": 16,
+    "servingNoun": { "en": "makes", "nl": "maakt" },
+    "image": "/images/brown-butter-blondies.jpg",
+    "featured": false,
+    "nutrition": [
+      { "value": "210", "label": { "en": "kcal", "nl": "kcal" } },
+      { "value": "2 g", "label": { "en": "protein", "nl": "eiwit" } },
+      { "value": "26 g", "label": { "en": "carbs", "nl": "koolhydraten" } },
+      { "value": "11 g", "label": { "en": "fat", "nl": "vet" } }
+    ],
+    "ingredientGroups": [
+      {
+        "name": { "en": "Blondies", "nl": "Blondies" },
+        "items": [
+          {
+            "name": { "en": "unsalted butter", "nl": "ongezouten boter" },
+            "us": { "v": 0.75, "u": "cup" },
+            "metric": { "v": 170, "u": "g" }
+          },
+          {
+            "name": { "en": "light brown sugar", "nl": "lichte basterdsuiker" },
+            "us": { "v": 1.5, "u": "cups" },
+            "metric": { "v": 300, "u": "g" }
+          },
+          {
+            "name": { "en": "eggs", "nl": "eieren" },
+            "us": { "v": 2, "u": "" },
+            "metric": { "v": 2, "u": "" }
+          },
+          {
+            "name": { "en": "vanilla extract", "nl": "vanille-extract" },
+            "us": { "v": 2, "u": "tsp" },
+            "metric": { "v": 8, "u": "g" }
+          },
+          {
+            "name": { "en": "plain flour", "nl": "bloem" },
+            "us": { "v": 1.5, "u": "cups" },
+            "metric": { "v": 188, "u": "g" }
+          },
+          {
+            "name": { "en": "baking powder", "nl": "bakpoeder" },
+            "us": { "v": 0.5, "u": "tsp" },
+            "metric": { "v": 2, "u": "g" }
+          },
+          {
+            "name": { "en": "flaky sea salt", "nl": "grof zeezout" },
+            "us": { "v": 1, "u": "tsp" },
+            "metric": { "v": 5, "u": "g" }
+          },
+          {
+            "name": {
+              "en": "white chocolate, chopped",
+              "nl": "witte chocolade, gehakt"
+            },
+            "us": { "v": 1, "u": "cup" },
+            "metric": { "v": 170, "u": "g" }
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "group": { "en": "Brown the butter", "nl": "Boter bruinen" },
+        "steps": [
+          {
+            "en": "Heat oven to 175°C (350°F) and line a square baking tin.",
+            "nl": "Verwarm de oven voor op 175°C en bekleed een vierkante bakvorm met bakpapier."
+          },
+          {
+            "en": "Melt butter in a pale pan over medium heat until it foams, then turns nutty brown and smells toasted, 5–6 mins. Cool slightly.",
+            "nl": "Smelt boter in een lichtgekleurde pan op middelhoog vuur tot het schuimt en daarna nootbruin kleurt en geroosterd ruikt, 5-6 minuten. Laat iets afkoelen."
+          }
+        ]
+      },
+      {
+        "group": { "en": "Batter & bake", "nl": "Beslag & bakken" },
+        "steps": [
+          {
+            "en": "Whisk brown butter with sugar until glossy, then whisk in eggs and vanilla.",
+            "nl": "Klop de gebruinde boter met suiker tot glanzend, klop er dan eieren en vanille doorheen."
+          },
+          {
+            "en": "Fold in flour, baking powder, and half the salt, then fold through the chocolate.",
+            "nl": "Spatel er bloem, bakpoeder en de helft van het zout doorheen, spatel dan de chocolade erdoor."
+          },
+          {
+            "en": "Bake 28–30 mins until the top is crackled and a skewer has a few moist crumbs. Cool fully before slicing, scatter with remaining salt.",
+            "nl": "Bak 28-30 minuten tot de bovenkant gebarsten is en een satéprikker er met een paar vochtige kruimels uitkomt. Laat volledig afkoelen voor het snijden en bestrooi met de rest van het zout."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "breakfast-burritos",
+    "slug": "loaded-breakfast-burritos",
+    "title": {
+      "en": "Loaded breakfast burritos",
+      "nl": "Loaded ontbijtburrito's"
+    },
+    "blurb": {
+      "en": "Crispy potatoes, soft eggs, all the toppings, wrapped tight.",
+      "nl": "Krokante aardappels, zachte eieren, alle toppings, strak opgerold."
+    },
+    "category": "breakfast",
+    "prep": { "en": "15 mins", "nl": "15 min" },
+    "cook": { "en": "25 mins", "nl": "25 min" },
+    "totalTime": { "en": "40 mins", "nl": "40 min" },
+    "baseServings": 4,
+    "servingNoun": { "en": "makes", "nl": "maakt" },
+    "image": "/images/breakfast-burritos.jpg",
+    "featured": false,
+    "nutrition": [
+      { "value": "540", "label": { "en": "kcal", "nl": "kcal" } },
+      { "value": "22 g", "label": { "en": "protein", "nl": "eiwit" } },
+      { "value": "48 g", "label": { "en": "carbs", "nl": "koolhydraten" } },
+      { "value": "28 g", "label": { "en": "fat", "nl": "vet" } }
+    ],
+    "ingredientGroups": [
+      {
+        "name": { "en": "Filling", "nl": "Vulling" },
+        "items": [
+          {
+            "name": {
+              "en": "waxy potatoes, small dice",
+              "nl": "vastkokende aardappels, klein gesneden"
+            },
+            "us": { "v": 2, "u": "cups" },
+            "metric": { "v": 300, "u": "g" }
+          },
+          {
+            "name": { "en": "olive oil", "nl": "olijfolie" },
+            "us": { "v": 2, "u": "tbsp" },
+            "metric": { "v": 30, "u": "ml" }
+          },
+          {
+            "name": { "en": "eggs", "nl": "eieren" },
+            "us": { "v": 8, "u": "" },
+            "metric": { "v": 8, "u": "" }
+          },
+          {
+            "name": { "en": "cheddar, grated", "nl": "cheddar, geraspt" },
+            "us": { "v": 1, "u": "cup" },
+            "metric": { "v": 100, "u": "g" }
+          },
+          {
+            "name": {
+              "en": "black beans, drained",
+              "nl": "zwarte bonen, uitgelekt"
+            },
+            "us": { "v": 1, "u": "cup" },
+            "metric": { "v": 240, "u": "g" }
+          },
+          {
+            "name": { "en": "smoked paprika", "nl": "gerookte paprikapoeder" },
+            "us": { "v": 1, "u": "tsp" },
+            "metric": { "v": 2, "u": "g" }
+          }
+        ]
+      },
+      {
+        "name": { "en": "To wrap", "nl": "Om te vullen" },
+        "items": [
+          {
+            "name": {
+              "en": "large flour tortillas",
+              "nl": "grote tarwetortilla's"
+            },
+            "us": { "v": 4, "u": "" },
+            "metric": { "v": 4, "u": "" }
+          },
+          {
+            "name": { "en": "hot sauce", "nl": "hotsauce" },
+            "us": { "v": 2, "u": "tbsp" },
+            "metric": { "v": 30, "u": "ml" }
+          },
+          {
+            "name": { "en": "avocado, sliced", "nl": "avocado, in plakjes" },
+            "us": { "v": 1, "u": "" },
+            "metric": { "v": 1, "u": "" }
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "group": { "en": "Filling", "nl": "Vulling" },
+        "steps": [
+          {
+            "en": "Fry potatoes in oil over medium-high heat 10–12 mins until crisp and tender. Season with paprika.",
+            "nl": "Bak de aardappels in olie op middelhoog-hoog vuur 10-12 minuten tot krokant en gaar. Breng op smaak met paprikapoeder."
+          },
+          {
+            "en": "Push potatoes aside, scramble the eggs in the same pan until just set.",
+            "nl": "Schuif de aardappels opzij en roerbak de eieren in dezelfde pan tot net gestold."
+          },
+          {
+            "en": "Stir in black beans to warm through.",
+            "nl": "Roer de zwarte bonen erdoor om warm te worden."
+          }
+        ]
+      },
+      {
+        "group": { "en": "Wrap", "nl": "Oprollen" },
+        "steps": [
+          {
+            "en": "Warm tortillas. Layer egg mixture, cheddar, avocado, and hot sauce down the centre.",
+            "nl": "Verwarm de tortilla's. Verdeel het eimengsel, cheddar, avocado en hotsauce over het midden."
+          },
+          {
+            "en": "Fold in the sides, roll tightly, and sear seam-side down in a dry pan 1 min to seal.",
+            "nl": "Vouw de zijkanten in, rol strak op en bak 1 minuut met de naad naar beneden in een droge pan om te sluiten."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thai-basil-chicken",
+    "slug": "thai-basil-chicken",
+    "title": {
+      "en": "Thai basil chicken (pad krapow)",
+      "nl": "Thaise basilicumkip (pad kra pao)"
+    },
+    "blurb": {
+      "en": "Fast, punchy, and ready before the rice is done resting.",
+      "nl": "Snel, pittig, en klaar voordat de rijst is uitgestoomd."
+    },
+    "category": "lunch",
+    "prep": { "en": "10 mins", "nl": "10 min" },
+    "cook": { "en": "12 mins", "nl": "12 min" },
+    "totalTime": { "en": "22 mins", "nl": "22 min" },
+    "baseServings": 2,
+    "servingNoun": { "en": "serves", "nl": "porties" },
+    "image": "/images/thai-basil-chicken.jpg",
+    "featured": false,
+    "nutrition": [
+      { "value": "420", "label": { "en": "kcal", "nl": "kcal" } },
+      { "value": "32 g", "label": { "en": "protein", "nl": "eiwit" } },
+      { "value": "24 g", "label": { "en": "carbs", "nl": "koolhydraten" } },
+      { "value": "20 g", "label": { "en": "fat", "nl": "vet" } }
+    ],
+    "ingredientGroups": [
+      {
+        "name": { "en": "Stir-fry", "nl": "Roerbakken" },
+        "items": [
+          {
+            "name": { "en": "chicken thigh", "nl": "kippendijfilet" },
+            "us": { "v": 1, "u": "lb" },
+            "metric": { "v": 450, "u": "g" }
+          },
+          {
+            "name": { "en": "vegetable oil", "nl": "plantaardige olie" },
+            "us": { "v": 2, "u": "tbsp" },
+            "metric": { "v": 30, "u": "ml" }
+          },
+          {
+            "name": { "en": "garlic, chopped", "nl": "knoflook, gehakt" },
+            "us": { "v": 5, "u": "cloves" },
+            "metric": { "v": 5, "u": "cloves" }
+          },
+          {
+            "name": {
+              "en": "Thai chillies, chopped",
+              "nl": "Thaise pepers, gehakt"
+            },
+            "us": { "v": 3, "u": "" },
+            "metric": { "v": 3, "u": "" }
+          },
+          {
+            "name": { "en": "fish sauce", "nl": "vissaus" },
+            "us": { "v": 2, "u": "tbsp" },
+            "metric": { "v": 30, "u": "ml" }
+          },
+          {
+            "name": { "en": "oyster sauce", "nl": "oestersaus" },
+            "us": { "v": 1, "u": "tbsp" },
+            "metric": { "v": 15, "u": "ml" }
+          },
+          {
+            "name": { "en": "soy sauce", "nl": "sojasaus" },
+            "us": { "v": 1, "u": "tsp" },
+            "metric": { "v": 5, "u": "ml" }
+          },
+          {
+            "name": { "en": "sugar", "nl": "suiker" },
+            "us": { "v": 1, "u": "tsp" },
+            "metric": { "v": 4, "u": "g" }
+          },
+          {
+            "name": {
+              "en": "Thai holy basil leaves",
+              "nl": "Thaise heilige basilicumblaadjes"
+            },
+            "us": { "v": 1, "u": "cup" },
+            "metric": { "v": 20, "u": "g" }
+          }
+        ]
+      },
+      {
+        "name": { "en": "To serve", "nl": "Om te serveren" },
+        "items": [
+          {
+            "name": { "en": "fried eggs", "nl": "gebakken eieren" },
+            "us": { "v": 2, "u": "" },
+            "metric": { "v": 2, "u": "" }
+          },
+          {
+            "name": {
+              "en": "steamed jasmine rice",
+              "nl": "gestoomde jasmijnrijst"
+            },
+            "us": { "v": 2, "u": "cups" },
+            "metric": { "v": 370, "u": "g" }
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "group": { "en": "Stir-fry", "nl": "Roerbakken" },
+        "steps": [
+          {
+            "en": "Heat oil in a wok over high heat. Fry garlic and chillies 30 secs until fragrant.",
+            "nl": "Verhit olie in een wok op hoog vuur. Bak knoflook en pepers 30 seconden tot het geurt."
+          },
+          {
+            "en": "Add chicken and stir-fry, breaking it up, 4–5 mins until browned and cooked through.",
+            "nl": "Voeg de kip toe en roerbak, in stukjes brekend, 4-5 minuten tot bruin en gaar."
+          },
+          {
+            "en": "Add fish sauce, oyster sauce, soy sauce, and sugar. Toss 1 min.",
+            "nl": "Voeg vissaus, oestersaus, sojasaus en suiker toe. Schep 1 minuut om."
+          },
+          {
+            "en": "Off the heat, fold through the basil until just wilted.",
+            "nl": "Haal van het vuur en schep de basilicum erdoor tot net geslonken."
+          }
+        ]
+      },
+      {
+        "group": { "en": "Serve", "nl": "Serveren" },
+        "steps": [
+          {
+            "en": "Spoon over steamed rice and top each portion with a crispy fried egg.",
+            "nl": "Schep over gestoomde rijst en leg op elke portie een krokant gebakken ei."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "knife-sharpening",
+    "slug": "how-to-sharpen-a-knife",
+    "title": { "en": "How to sharpen a knife", "nl": "Hoe slijp je een mes" },
+    "blurb": {
+      "en": "The one skill that makes every other one easier.",
+      "nl": "De ene vaardigheid die alle andere makkelijker maakt."
+    },
+    "category": "technique",
+    "type": "technique",
+    "isBasic": true,
+    "totalTime": { "en": "10 mins", "nl": "10 min" },
+    "image": "/images/knife-sharpening.jpg",
+    "featured": false,
+    "instructions": [
+      {
+        "group": { "en": "Get the angle", "nl": "De juiste hoek" },
+        "steps": [
+          {
+            "en": "Set the whetstone on a damp towel so it can't slide around.",
+            "nl": "Zet de slijpsteen op een vochtige doek zodat hij niet kan wegglijden."
+          },
+          {
+            "en": "Angle the blade about 15–20° off the stone — roughly the gap of two stacked coins under the spine.",
+            "nl": "Houd het lemmet in een hoek van 15-20° ten opzichte van de steen — ongeveer de ruimte van twee gestapelde muntjes onder de rug."
+          }
+        ]
+      },
+      {
+        "group": { "en": "Sharpen", "nl": "Slijpen" },
+        "steps": [
+          {
+            "en": "Draw the blade across the stone heel to tip in one smooth arc, as if shaving a thin layer off the surface.",
+            "nl": "Trek het lemmet van hiel tot punt in één vloeiende boog over de steen, alsof je een dun laagje van het oppervlak schaaft."
+          },
+          {
+            "en": "Repeat 8–10 strokes, then flip the knife and match the same count on the other side.",
+            "nl": "Herhaal 8-10 keer, draai het mes dan om en doe hetzelfde aantal aan de andere kant."
+          },
+          {
+            "en": "Move to a finer grit if you have one, then strop both sides on a clean towel to clear the burr.",
+            "nl": "Ga verder met een fijnere korrel als je die hebt, en strijk daarna beide kanten over een schone doek om de braam te verwijderen."
+          }
+        ]
+      },
+      {
+        "group": { "en": "Test it", "nl": "Testen" },
+        "steps": [
+          {
+            "en": "Slice through a sheet of paper or a ripe tomato — a sharp edge glides through, it doesn't tear.",
+            "nl": "Snijd door een vel papier of een rijpe tomaat — een scherp lemmet glijdt erdoorheen, het scheurt niet."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pots-and-pans",
+    "slug": "pots-and-pans-explained",
+    "title": { "en": "Pots and pans, explained", "nl": "Pannen, uitgelegd" },
+    "blurb": {
+      "en": "What to reach for and why — the essentials, no clutter.",
+      "nl": "Waar je naar grijpt en waarom — de basis, zonder rompslomp."
+    },
+    "category": "essentials",
+    "type": "technique",
+    "isBasic": true,
+    "totalTime": { "en": "5 min read", "nl": "5 min leestijd" },
+    "image": "/images/pots-and-pans.jpg",
+    "featured": false,
+    "instructions": [
+      {
+        "group": { "en": "Frying pans", "nl": "Koekenpannen" },
+        "steps": [
+          {
+            "en": "Non-stick: eggs, pancakes, delicate fish — anything that likes to stick.",
+            "nl": "Anti-aanbak: eieren, pannenkoeken, delicate vis — alles wat graag aanbakt."
+          },
+          {
+            "en": "Stainless steel: searing meat and building a fond for pan sauces.",
+            "nl": "Rvs: vlees dichtschroeien en een aanzetsel opbouwen voor sauzen."
+          },
+          {
+            "en": "Cast iron: high-heat searing and anything that finishes in the oven.",
+            "nl": "Gietijzer: dichtschroeien op hoog vuur en alles dat in de oven wordt afgemaakt."
+          }
+        ]
+      },
+      {
+        "group": { "en": "Pots", "nl": "Kookpannen" },
+        "steps": [
+          {
+            "en": "Saucepan: sauces, grains, and reheating small quantities.",
+            "nl": "Steelpan: sauzen, granen en het opwarmen van kleine hoeveelheden."
+          },
+          {
+            "en": "Stockpot: pasta, stock, and big-batch soups.",
+            "nl": "Grote soeppan: pasta, bouillon en soep in grote hoeveelheden."
+          },
+          {
+            "en": "Dutch oven: braises, stews, and no-knead bread — stovetop to oven in one pot.",
+            "nl": "Braadpan (dutch oven): stoofschotels, stews en brood zonder kneden — van kookplaat naar oven in één pan."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vanilla-cake",
+    "slug": "plain-vanilla-cake",
+    "title": { "en": "Plain vanilla cake", "nl": "Simpele vanillecake" },
+    "blurb": {
+      "en": "No frills, no fuss — just a good, honest vanilla cake.",
+      "nl": "Geen poespas, geen gedoe — gewoon een goede, eerlijke vanillecake."
+    },
+    "category": "baking & desserts",
+    "type": "recipe",
+    "isBasic": true,
+    "prep": { "en": "15 mins", "nl": "15 min" },
+    "cook": { "en": "35 mins", "nl": "35 min" },
+    "totalTime": { "en": "50 mins", "nl": "50 min" },
+    "baseServings": 8,
+    "servingNoun": { "en": "serves", "nl": "porties" },
+    "image": "/images/plain-vanilla-cake.jpg",
+    "featured": false,
+    "nutrition": [
+      { "value": "310", "label": { "en": "kcal", "nl": "kcal" } },
+      { "value": "4 g", "label": { "en": "protein", "nl": "eiwit" } },
+      { "value": "42 g", "label": { "en": "carbs", "nl": "koolhydraten" } },
+      { "value": "14 g", "label": { "en": "fat", "nl": "vet" } }
+    ],
+    "ingredientGroups": [
+      {
+        "name": { "en": "Cake", "nl": "Cake" },
+        "items": [
+          {
+            "name": {
+              "en": "unsalted butter, softened",
+              "nl": "ongezouten boter, op kamertemperatuur"
+            },
+            "us": { "v": 0.75, "u": "cup" },
+            "metric": { "v": 170, "u": "g" }
+          },
+          {
+            "name": { "en": "caster sugar", "nl": "fijne kristalsuiker" },
+            "us": { "v": 1, "u": "cup" },
+            "metric": { "v": 200, "u": "g" }
+          },
+          {
+            "name": { "en": "eggs", "nl": "eieren" },
+            "us": { "v": 3, "u": "" },
+            "metric": { "v": 3, "u": "" }
+          },
+          {
+            "name": { "en": "vanilla extract", "nl": "vanille-extract" },
+            "us": { "v": 2, "u": "tsp" },
+            "metric": { "v": 8, "u": "g" }
+          },
+          {
+            "name": { "en": "plain (all-purpose) flour", "nl": "bloem" },
+            "us": { "v": 1.75, "u": "cups" },
+            "metric": { "v": 219, "u": "g" }
+          },
+          {
+            "name": { "en": "baking powder", "nl": "bakpoeder" },
+            "us": { "v": 2, "u": "tsp" },
+            "metric": { "v": 8, "u": "g" }
+          },
+          {
+            "name": { "en": "whole milk", "nl": "volle melk" },
+            "us": { "v": 0.5, "u": "cup" },
+            "metric": { "v": 120, "u": "ml" }
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "group": { "en": "Batter", "nl": "Beslag" },
+        "steps": [
+          {
+            "en": "Heat oven to 175°C (350°F) and line a round cake tin.",
+            "nl": "Verwarm de oven voor op 175°C en bekleed een ronde bakvorm met bakpapier."
+          },
+          {
+            "en": "Cream butter and sugar until pale and fluffy, about 3 mins.",
+            "nl": "Klop boter en suiker luchtig en lichtgeel, ongeveer 3 minuten."
+          },
+          {
+            "en": "Beat in eggs one at a time, then the vanilla.",
+            "nl": "Klop de eieren er één voor één doorheen, dan de vanille."
+          },
+          {
+            "en": "Fold in flour and baking powder in two additions, alternating with the milk, until just combined.",
+            "nl": "Spatel er in twee keer bloem en bakpoeder doorheen, afgewisseld met de melk, tot net gemengd."
+          }
+        ]
+      },
+      {
+        "group": { "en": "Bake", "nl": "Bakken" },
+        "steps": [
+          {
+            "en": "Pour into the tin and smooth the top.",
+            "nl": "Giet het beslag in de vorm en strijk de bovenkant glad."
+          },
+          {
+            "en": "Bake 30–35 mins until golden and a skewer comes out clean.",
+            "nl": "Bak 30-35 minuten tot goudbruin en een satéprikker er schoon uitkomt."
+          },
+          {
+            "en": "Cool in the tin 10 mins, then turn out onto a rack to cool fully.",
+            "nl": "Laat 10 minuten afkoelen in de vorm, stort dan op een rooster om helemaal af te koelen."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "white-bread",
+    "slug": "simple-white-bread",
+    "title": { "en": "Simple white bread", "nl": "Simpel witbrood" },
+    "blurb": {
+      "en": "One bowl, one loaf tin, no fancy technique required.",
+      "nl": "Eén kom, één broodvorm, geen ingewikkelde techniek nodig."
+    },
+    "category": "baking & desserts",
+    "type": "recipe",
+    "isBasic": true,
+    "prep": { "en": "20 mins", "nl": "20 min" },
+    "cook": { "en": "30 mins", "nl": "30 min" },
+    "totalTime": { "en": "2 hrs 50 mins", "nl": "2 uur 50 min" },
+    "baseServings": 10,
+    "servingNoun": { "en": "makes", "nl": "maakt" },
+    "image": "/images/simple-white-bread.jpg",
+    "featured": false,
+    "nutrition": [
+      { "value": "140", "label": { "en": "kcal", "nl": "kcal" } },
+      { "value": "4 g", "label": { "en": "protein", "nl": "eiwit" } },
+      { "value": "28 g", "label": { "en": "carbs", "nl": "koolhydraten" } },
+      { "value": "1 g", "label": { "en": "fat", "nl": "vet" } }
+    ],
+    "ingredientGroups": [
+      {
+        "name": { "en": "Dough", "nl": "Deeg" },
+        "items": [
+          {
+            "name": {
+              "en": "strong white bread flour",
+              "nl": "tarwebloem (brood-bloem)"
+            },
+            "us": { "v": 4, "u": "cups" },
+            "metric": { "v": 500, "u": "g" }
+          },
+          {
+            "name": {
+              "en": "instant dried yeast",
+              "nl": "instant gedroogde gist"
+            },
+            "us": { "v": 2.25, "u": "tsp" },
+            "metric": { "v": 7, "u": "g" }
+          },
+          {
+            "name": { "en": "fine salt", "nl": "fijn zout" },
+            "us": { "v": 2, "u": "tsp" },
+            "metric": { "v": 10, "u": "g" }
+          },
+          {
+            "name": { "en": "sugar", "nl": "suiker" },
+            "us": { "v": 1, "u": "tbsp" },
+            "metric": { "v": 12, "u": "g" }
+          },
+          {
+            "name": { "en": "warm water", "nl": "warm water" },
+            "us": { "v": 1.5, "u": "cups" },
+            "metric": { "v": 340, "u": "ml" }
+          },
+          {
+            "name": { "en": "olive oil", "nl": "olijfolie" },
+            "us": { "v": 2, "u": "tbsp" },
+            "metric": { "v": 28, "u": "ml" }
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "group": { "en": "Dough", "nl": "Deeg" },
+        "steps": [
+          {
+            "en": "Mix flour, yeast, salt, and sugar in a large bowl.",
+            "nl": "Meng bloem, gist, zout en suiker in een grote kom."
+          },
+          {
+            "en": "Add warm water and oil, and mix to a shaggy dough.",
+            "nl": "Voeg warm water en olie toe en meng tot een ruw deeg."
+          },
+          {
+            "en": "Knead 10 mins by hand, or 5 mins in a mixer, until smooth and elastic.",
+            "nl": "Kneed 10 minuten met de hand, of 5 minuten in een mixer, tot glad en elastisch."
+          }
+        ]
+      },
+      {
+        "group": { "en": "Prove & bake", "nl": "Rijzen & bakken" },
+        "steps": [
+          {
+            "en": "Cover and prove in a warm spot 1–1.5 hrs, until doubled.",
+            "nl": "Dek af en laat op een warme plek 1-1,5 uur rijzen tot verdubbeld."
+          },
+          {
+            "en": "Knock back, shape into a loaf, and place in a greased loaf tin. Prove a further 30–40 mins.",
+            "nl": "Sla het deeg terug, vorm een brood en leg in een ingevette broodvorm. Laat nog 30-40 minuten rijzen."
+          },
+          {
+            "en": "Heat oven to 220°C (425°F) and bake 30 mins until deep golden and it sounds hollow when tapped underneath.",
+            "nl": "Verwarm de oven voor op 220°C en bak 30 minuten tot diepgoud en het brood hol klinkt als je op de onderkant klopt."
+          },
+          {
+            "en": "Cool on a rack for at least 20 mins before slicing.",
+            "nl": "Laat minstens 20 minuten afkoelen op een rooster voor het snijden."
+          }
+        ]
+      }
+    ]
+  }
+]
